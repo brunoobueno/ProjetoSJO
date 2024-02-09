@@ -1,0 +1,20 @@
+{
+    "name": "api-sjo-v1",
+    "version": "1.0.0",
+    "description": "api para uso em bot ia na empresa SJO",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "keywords": [],
+    "author": "Bruno Bueno - croma.dev",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "mysql2": "^2.3.0"
+    },
+    "devDependencies": {
+        "@flydotio/dockerfile": "^0.5.0"
+    }
+}
